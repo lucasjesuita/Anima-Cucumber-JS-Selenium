@@ -1,0 +1,178 @@
+[
+  {
+    "description": "    Sendo um usuário do site\n    Posso acessar o site de Automação\n    Para realizar cadastros de um novo usuário",
+    "elements": [
+      {
+        "id": "cadastro-de-usuário;cadastro-com-sucesso",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Cadastro com sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "que estou na pagina de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 9760098503
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"Fenanda\" no campo \"user_name\"",
+            "result": {
+              "status": "passed",
+              "duration": 4065795
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"Teixeira\" no campo \"user_lastname\"",
+            "result": {
+              "status": "passed",
+              "duration": 2391599
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"fernanda12456@gmail.combr\" no campo \"user_email\"",
+            "result": {
+              "status": "passed",
+              "duration": 2221687
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"Rua X, 1234\" no campo \"user_address\"",
+            "result": {
+              "status": "passed",
+              "duration": 2045358
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"Unibh\" no campo \"user_university\"",
+            "result": {
+              "status": "passed",
+              "duration": 2079340
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"QA\" no campo \"user_profile\"",
+            "result": {
+              "status": "passed",
+              "duration": 1437074
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"Ferminino\" no campo \"user_gender\"",
+            "result": {
+              "status": "passed",
+              "duration": 2006089
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "\"26\" no campo \"user_age\"",
+            "result": {
+              "status": "passed",
+              "duration": 1157286
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "realizo o cadastro do usuario",
+            "result": {
+              "status": "passed",
+              "duration": 1568473
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "visualizo a mensagem de sucesso \"Usuário Criado com sucesso\"",
+            "result": {
+              "status": "passed",
+              "duration": 1753109
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\step-definitions\\batista.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3227448114
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\lucas\\Desktop\\QA_Anima\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cadastro-de-usuário",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Cadastro de Usuário",
+    "tags": [],
+    "uri": "C:/Users/lucas/Desktop/QA_Anima/features/CadastroUsuario.feature"
+  }
+]

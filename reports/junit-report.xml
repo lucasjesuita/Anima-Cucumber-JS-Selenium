@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="cadastro-de-usuário;cadastro-com-sucesso" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/lucas/Desktop/QA_Anima/features/CadastroUsuario.feature">
+            </property>
+        </properties>
+        <testcase name="Given que estou na pagina de cadastro" classname="cadastro-de-usuário;cadastro-com-sucesso" time="9.760098503">
+        </testcase>
+        <testcase name="And &quot;Fenanda&quot; no campo &quot;user_name&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.004065795">
+        </testcase>
+        <testcase name="And &quot;Teixeira&quot; no campo &quot;user_lastname&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.002391599">
+        </testcase>
+        <testcase name="And &quot;fernanda12456@gmail.combr&quot; no campo &quot;user_email&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.002221687">
+        </testcase>
+        <testcase name="And &quot;Rua X, 1234&quot; no campo &quot;user_address&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.002045358">
+        </testcase>
+        <testcase name="And &quot;Unibh&quot; no campo &quot;user_university&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.00207934">
+        </testcase>
+        <testcase name="And &quot;QA&quot; no campo &quot;user_profile&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.001437074">
+        </testcase>
+        <testcase name="And &quot;Ferminino&quot; no campo &quot;user_gender&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.002006089">
+        </testcase>
+        <testcase name="And &quot;26&quot; no campo &quot;user_age&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.001157286">
+        </testcase>
+        <testcase name="When realizo o cadastro do usuario" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.001568473">
+        </testcase>
+        <testcase name="Then visualizo a mensagem de sucesso &quot;Usuário Criado com sucesso&quot;" classname="cadastro-de-usuário;cadastro-com-sucesso" time="0.001753109">
+        </testcase>
+    </testsuite>
+</testsuites>
